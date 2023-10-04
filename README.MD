@@ -14,14 +14,18 @@ index (1)_tencentcloud.py -> index.py
 
 新建终端 cd src
 
-pip install -r requirements.txt
+pip install -r requirements.txt -t .
 
 ````
-```
 requests==2.24.0
 rsa==4.7
-```
 ````
+
+
+
+---
+
+notes:
 
 python3 index.py
 
